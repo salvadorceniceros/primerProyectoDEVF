@@ -76,7 +76,7 @@ body{
 
 /* Sección Inicio */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url("assets/img/fondo.webp");
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(assets/img/fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: white;
@@ -284,12 +284,12 @@ body{
 .skills .skill > span{
     font-weight: bold;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .skills .skill .barra-skill{
     height: 8px;
-    width: 80px;
+    width: 300px;
     background-color: var(--info);
     position: relative;
     margin-bottom: 30px;
@@ -305,24 +305,126 @@ body{
 
 .skills .skill .barra-skill span{
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     background-color: var(--info);
     border-radius: 50%;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
-    top: -17px;
+    top: -12px;
     right: -15px;
     font-size: 14px;
 }
 
+/* Barra de habilidades Técnicas
+Barra de porcentaje para JavaScript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
-@keyframes .javascript {
+@keyframes javascript {
     0%{width: 0%;}
     100%{width: 50%;}
+}
+/* Barra de porcentaje para html */
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 79%;}
+}
+/* Barra de porcentaje para css */
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+/* Barra de porcentaje para photoshop */
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 71%;}
+}
+/* Barra de porcentaje para joomla */
+.skills .skill .joomla{
+    width: 0%;
+    animation: 2s joomla forwards;
+}
+@keyframes joomla {
+    0%{width: 0%;}
+    100%{width: 83%;}
+}
+/* Barra de porcentaje para wordpress */
+.skills .skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 43%;}
+}
+/* Barra de habilidades Profesionales
+Barra de porcentaje para Comunicación */
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/* Barra de porcentaje para trabajoEquipo */
+.skills .skill .trabajoEquipo{
+    width: 0%;
+    animation: 2s trabajoEquipo forwards;
+}
+@keyframes trabajoEquipo {
+    0%{width: 0%;}
+    100%{width: 77%;}
+}
+/* Barra de porcentaje para creatividad */
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 69%;}
+}
+/* Barra de porcentaje para dedicacion */
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 71%;}
+}
+/* Barra de porcentaje para proyectos */
+.skills .skill .proyectos{
+    width: 0%;
+    animation: 2s proyectos forwards;
+}
+@keyframes proyectos {
+    0%{width: 0%;}
+    100%{width: 53%;}
+}
+/* Barra de porcentaje para flexibilidad */
+.skills .skill .flexibilidad{
+    width: 0%;
+    animation: 2s flexibilidad forwards;
+}
+@keyframes flexibilidad {
+    0%{width: 0%;}
+    100%{width: 83%;}
 }
 
 .bg-color{
