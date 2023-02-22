@@ -18,23 +18,23 @@
     <title>Mi Primer Proyecto en DEVF</title>
   </head>
   <body>
-    <!-- Menu de Encabezado -->
+    <!-- Sección de Menu - Encabezado -->
     <div class="contenedor-header">
       <header>
         <div class="logo">
-          <a href="#">logo</a>
+          <a href="#">Odonto</a>
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobremi">Sobre mi</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#curriculum">Curriculum</a></li>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+            <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
@@ -148,7 +148,7 @@
       </div>
     </section>
 
-    <!-- Mis Habilidades -->
+    <!-- Sección de mis Habilidades -->
     <section class="skills" id="skills">
       <div class="contenido-seccion">
         <h2>Habilidades</h2>
@@ -412,7 +412,7 @@
       </div>
     </section>
 
-    <!-- sección de Contacto -->
+    <!-- Sección de Contacto -->
     <section id="contacto" class="contacto">
       <div class="contenido-seccion">
         <h2>Contacto</h2>
@@ -459,7 +459,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Sección de Footer -->
     <footer>
       <a href="#inicio" class="arriba">
         <i class="fa-solid fa-angles-up"></i>
