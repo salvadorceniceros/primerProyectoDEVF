@@ -693,7 +693,7 @@ Barra de porcentaje para Comunicación */
     top: 40%;
     background-color: var(--primary);
     padding: 20px;
-    width: fit-content;
+    width: 360px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -706,4 +706,54 @@ Barra de porcentaje para Comunicación */
     color: var(--ligth);
     display: inline-block;
     margin-right: 20px;
+}
+
+/* Sección de Footer */
+footer{
+    background-color: var(--secondary2);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes a{
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .redes-sociales a:hover{
+    background-color: var(--secondary);
+}
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--ligth);
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+footer .arriba:hover{
+    background-color: var(--secondary);
 }
