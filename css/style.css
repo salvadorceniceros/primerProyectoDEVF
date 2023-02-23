@@ -249,7 +249,10 @@ body{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-
+button .container a{
+    text-decoration: none;
+    color: white;
+}
 /* Sección de Skills */
 .skills{
     background-color: var(--secondary2);

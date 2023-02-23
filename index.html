@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <script
       src="https://kit.fontawesome.com/6590f71d2f.js"
       crossorigin="anonymous"
@@ -22,7 +23,7 @@
     <div class="contenedor-header">
       <header>
         <div class="logo">
-          <a href="#">Odonto</a>
+          <a href="/index.html"><img src="/assets/img/logoAzul.png" width="300" alt="Logo de la Página"></a>
         </div>
         <nav id="nav">
           <ul>
@@ -141,9 +142,11 @@
           </div>
         </div>
         <button>
-          Descargar CV
-          <i class="fa-solid fa-download"></i>
-          <span class="overlay"></span>
+          <div class="container">
+            <a href="/assets/img/miCV.png" class="btn-descarga" download="Mi Curriculum Vitae" title="Descargar mi CV">Descargar CV</a>
+            <span class="overlay"></span>
+            <i class="fa-solid fa-download"></i>
+          </div>
         </button>
       </div>
     </section>
@@ -157,7 +160,7 @@
           <div class="col">
             <h3>Habilidades Técnicas</h3>
             <div class="skill">
-              <span>JavaScript</span>
+              <span>Javascript</span>
               <div class="barra-skill">
                 <div class="progreso javascript">
                   <span>50%</span>
@@ -422,7 +425,7 @@
             <input type="text" placeholder="Tú nombre" />
             <input type="text" placeholder="Número de teléfono" />
             <input type="text" placeholder="Dirección" />
-            <input type="text" placeholder="Tema" />
+            <input type="text" placeholder="Asunto" />
             <textarea
               name=""
               id=""
