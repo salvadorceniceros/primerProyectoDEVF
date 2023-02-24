@@ -1,11 +1,12 @@
 :root{
-    --primary: #00687A;
-    --secondary: #00798F;
-    --secondary2: #008BA3;
-    --ligth: #009CB8;
-    --info: #00ADCC;
-    --black: #00BFE0;
+    --primary: #8F192E;
+    --secondary: #9D1B33;
+    --secondary2: #B21E36;
+    --ligth: #D12340;
+    --info: #DC2E4B;
+    --black: #DE3F5A;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -712,13 +713,120 @@ Barra de porcentaje para Comunicación */
     margin-right: 20px;
 }
 
-/* Sección de Footer */
+/* Sección de Footer */ 
 footer{
     background-color: var(--secondary2);
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
     width: 100%;
+}
+
+footer .redes a{
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .redes-sociales a:hover{
+    background-color: var(--secondary);
+}
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--ligth);
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+footer .arriba:hover{
+    background-color: var(--secondary);
+} */
+
+.pie-pagina{
+    width: 100%;
+    background-color: var(--ligth);
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo1 .izq{
+    border-right: 1px solid white;
+}
+.pie-pagina .grupo1 .der{
+    border-left: 1px solid white;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo1 .box .redes-sociales a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.pie-pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo1 .box p{
+    color: #efefef;
+    font-size: 18px;
+}
+
+.pie-pagina .grupo2{
+    background-color: var(--secondary2);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 footer .redes a{
@@ -827,5 +935,8 @@ footer .arriba:hover{
     }
     .contacto .fila .col{
         width: 100%;
+    }
+    .pie-pagina .grupo1{
+        display: block;
     }
 }
